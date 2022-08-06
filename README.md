@@ -63,8 +63,18 @@ Three simulation environments are prepared for TurtleBot3. Please select one of 
 
 <b>`Please make sure to completely terminate other Simulation world before launching a new world.`</b> <br/>
 <b> TurtleBot3 World </b> <br/>
+
+`$ export TURTLEBOT3_MODEL=waffle`<br/>
+`$ roslaunch turtlebot3_gazebo turtlebot3_world.launch`<br/>
 <br/>
+
 ![001](https://user-images.githubusercontent.com/101488769/183253606-f2ffca27-dc14-4280-abe4-5d2ec396f8df.png)
 <br/>
 
 ## 6-SLAM-Simulation:
+### 6.1 Run SLAM Node:
+Open a new terminal from Remote PC with `Ctrl` + `Alt` + `T` and run the SLAM node. Gmapping SLAM method is used by default.<br/>
+Please use the proper keyword among `burger` , `waffle` , `waffle_pi` for the TURTLEBOT3_MODEL parameter.<br/>
+
+`$ export TURTLEBOT3_MODEL=burger`<br/>
+`$ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping`<br/>
