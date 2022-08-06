@@ -9,4 +9,6 @@
 * [1- Download and Install Ubuntu on PC](#1-Download-and-Install-Ubuntu-on-PC)
 
 ## 1-Download-and-Install-Ubuntu-on-PC
+### 1.1 Download the proper `Ubuntu 20.04 LTS Desktop` image for your PC from the links below.
+* Ubuntu 20.04 LTS Desktop image (64-bit) (#https://releases.ubuntu.com/20.04/)
 
