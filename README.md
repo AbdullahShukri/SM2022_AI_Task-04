@@ -12,6 +12,7 @@
 * [4- Install TurtleBot3 Packages](#4-Install-TurtleBot3-Packages)
 * [5- Gazebo Simulation](#5-Gazebo-Simulation)
 * [6- SLAM Simulation](#6-SLAM-Simulation)
+ <br/>
 
 ## 1-Download-and-Install-Ubuntu-on-PC:
 ### 1.1 Download the proper `Ubuntu 20.04 LTS Desktop` image for your PC from the links below.
@@ -28,6 +29,7 @@ In order to check the details of the easy installation script.<br/>
 `$ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh` <br/>
 `$ chmod 755 ./install_ros_noetic.sh`<br/>
 `$ bash ./install_ros_noetic.sh`<br/>
+<br/>
 
 ## 3-Install-Dependent-ROS-Packages:
 `$ sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \`<br/>
@@ -38,17 +40,31 @@ In order to check the details of the easy installation script.<br/>
   `ros-noetic-move-base ros-noetic-urdf ros-noetic-xacro \`<br/>
   `ros-noetic-compressed-image-transport ros-noetic-rqt* ros-noetic-rviz \`<br/>
   `ros-noetic-gmapping ros-noetic-navigation ros-noetic-interactive-marker`<br/>
-  
+<br/>  
 
 ## 4-Install-TurtleBot3-Packages:
 Install TurtleBot3 via Debian Packages.<br/>
 `$ sudo apt install ros-noetic-dynamixel-sdk`<br/>
 `$ sudo apt install ros-noetic-turtlebot3-msgs`<br/>
 `$ sudo apt install ros-noetic-turtlebot3`<br/>
-
+<br/>
 
 ## 5-Gazebo-Simulation:-
 ### 5.1 Install Simulation Package:
-The TurtleBot3 Simulation Package requires `turtlebot3` and `turtlebot3_msgs` packages as prerequisite. Without these prerequisite packages, the Simulation cannot be launched.
-Please follow the [PC Setup](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/) instructions if you did not install required packages and dependent packages
+The <b>TurtleBot3 Simulation Package</b> requires `turtlebot3` and `turtlebot3_msgs` packages as prerequisite. Without these prerequisite packages, the Simulation cannot be launched.<br/>
+Please follow the [PC Setup](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/) instructions if you did not install required packages and dependent packages<br/>
+
+`$ cd ~/catkin_ws/src/`
+`$ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git`
+`$ cd ~/catkin_ws && catkin_make`
+
+### 5.2 Launch Simulation World:
+Three simulation environments are prepared for TurtleBot3. Please select one of these environments to launch Gazebo.
+
+<b>`Please make sure to completely terminate other Simulation world before launching a new world.`</b> <br/>
+<b> TurtleBot3 World </b> <br/>
+<br/>
+![001](https://user-images.githubusercontent.com/101488769/183253606-f2ffca27-dc14-4280-abe4-5d2ec396f8df.png)
+<br/>
+
 ## 6-SLAM-Simulation:
