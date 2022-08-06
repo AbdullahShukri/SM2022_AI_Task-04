@@ -6,7 +6,7 @@
 <br/>
 
 ## Table of Contents:-
-* [1- Download and Install Ubuntu on PC](#1-Download-and-Install-Ubuntu-on-PC:-)
+* [1- Download and Install Ubuntu on PC](#1-Download-and-Install-Ubuntu-on-PC)
 * [2- Install ROS on Remote PC](#2-Install-ROS-on-Remote-PC)
 * [3- Install Dependent ROS Packages](#3-Install-Dependent-ROS-Packages)
 * [4- Install TurtleBot3 Packages](#4-Install-TurtleBot3-Packages)
@@ -15,7 +15,7 @@
 * [7- Testing](#7-Testing)
  <br/>
 
-## 1-Download-and-Install-Ubuntu-on-PC:-
+## 1-Download-and-Install-Ubuntu-on-PC: -
 ### 1.1 Download the proper `Ubuntu 20.04 LTS Desktop` image for your PC from the links below.
 * [Ubuntu 20.04 LTS Desktop image (64-bit)](https://releases.ubuntu.com/20.04/)
 ### 1.2 Follow the instruction below to install Ubuntu on PC:
