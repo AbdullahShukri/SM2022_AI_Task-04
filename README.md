@@ -109,3 +109,5 @@ When the map is created successfully, open a new terminal from Remote PC with `C
 <br/>
 
 ## 7-Testing:
+![Task 04 1](https://user-images.githubusercontent.com/101488769/183255856-863117a0-75c7-4983-bead-2f2e901e689b.gif)
+<br/>
