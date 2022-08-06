@@ -12,9 +12,10 @@
 * [4- Install TurtleBot3 Packages](#4-Install-TurtleBot3-Packages)
 * [5- Gazebo Simulation](#5-Gazebo-Simulation)
 * [6- SLAM Simulation](#6-SLAM-Simulation)
+* [7- Testing](#7-Testing)
  <br/>
 
-## 1-Download-and-Install-Ubuntu-on-PC:
+## 1-Download-and-Install-Ubuntu-on-PC:-
 ### 1.1 Download the proper `Ubuntu 20.04 LTS Desktop` image for your PC from the links below.
 * [Ubuntu 20.04 LTS Desktop image (64-bit)](https://releases.ubuntu.com/20.04/)
 ### 1.2 Follow the instruction below to install Ubuntu on PC:
@@ -71,7 +72,7 @@ Three simulation environments are prepared for TurtleBot3. Please select one of 
 ![001](https://user-images.githubusercontent.com/101488769/183253606-f2ffca27-dc14-4280-abe4-5d2ec396f8df.png)
 <br/>
 
-## 6-SLAM-Simulation:
+## 6-SLAM-Simulation:-
 ### 6.1 Run SLAM Node:
 Open a new terminal from Remote PC with `Ctrl` + `Alt` + `T` and run the SLAM node. Gmapping SLAM method is used by default.<br/>
 Please use the proper keyword among `burger` , `waffle` , `waffle_pi` for the TURTLEBOT3_MODEL parameter.<br/>
@@ -83,7 +84,7 @@ Please use the proper keyword among `burger` , `waffle` , `waffle_pi` for the TU
 ![002](https://user-images.githubusercontent.com/101488769/183254106-e2e0ef6f-f6f8-42e7-beb1-20b2c2385492.png)
 <br/>
 
-### 6.2 Run Teleoperation Node
+### 6.2 Run Teleoperation Node:
 Open a new terminal from Remote PC with `Ctrl` + `Alt` + `T` and run the teleoperation node from the Remote PC.<br/><br/>
 Please use the proper keyword among `burger` , `waffle` , `waffle_pi` for the TURTLEBOT3_MODEL parameter.<br/>
 
@@ -93,3 +94,18 @@ Please use the proper keyword among `burger` , `waffle` , `waffle_pi` for the TU
 
 ![03](https://user-images.githubusercontent.com/101488769/183254268-c071018e-238d-4295-a0da-a13191d9e55c.png)
 <br/>
+
+### 6.3 Save Map:
+When the map is created successfully, open a new terminal from Remote PC with `Ctrl` + `Alt` + `T` and save the map. <br/>
+<br/>
+
+![003](https://user-images.githubusercontent.com/101488769/183255299-8d419137-7d54-4c37-ad62-7e5254e7df5b.png)
+<br/>
+
+`$ rosrun map_server map_saver -f ~/map` <br/>
+<br/>
+
+![04](https://user-images.githubusercontent.com/101488769/183255327-173fc3d4-b58b-42dd-acbb-0404b17f9647.jpg)
+<br/>
+
+## 7-Testing:
