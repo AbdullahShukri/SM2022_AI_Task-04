@@ -17,13 +17,22 @@
 * [Ubuntu 20.04 LTS Desktop image (64-bit)](https://releases.ubuntu.com/20.04/)
 ### 1.2 Follow the instruction below to install Ubuntu on PC:
 * [Install Ubuntu desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
- 
+ <br/>
 
 ## 2-Install-ROS-on-Remote-PC:
 Open the terminal with `Ctrl` + `Alt` + `T` and enter below commands one at a time.<br/>
 In order to check the details of the easy installation script.<br/>
-```$ sudo apt update
-$ sudo apt upgrade
-$ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
-$ chmod 755 ./install_ros_noetic.sh 
-$ bash ./install_ros_noetic.sh```
+`$ sudo apt update` <br/>
+`$ sudo apt upgrade` <br/>
+`$ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh` <br/>
+`$ chmod 755 ./install_ros_noetic.sh`<br/>
+`$ bash ./install_ros_noetic.sh`<br/>
+
+## 3-Install-Dependent-ROS-Packages:
+Install TurtleBot3 via Debian Packages.<br/>
+`$ sudo apt install ros-noetic-dynamixel-sdk`<br/>
+`$ sudo apt install ros-noetic-turtlebot3-msgs`<br/>
+`$ sudo apt install ros-noetic-turtlebot3`<br/>
+
+## 4-Install-TurtleBot3-Packages:
+
