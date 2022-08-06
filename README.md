@@ -10,7 +10,8 @@
 * [2- Install ROS on Remote PC](#2-Install-ROS-on-Remote-PC)
 * [3- Install Dependent ROS Packages](#3-Install-Dependent-ROS-Packages)
 * [4- Install TurtleBot3 Packages](#4-Install-TurtleBot3-Packages)
-* 
+* [5- Gazebo Simulation](#5-Gazebo-Simulation)
+* [6- SLAM Simulation](#6-SLAM-Simulation)
 
 ## 1-Download-and-Install-Ubuntu-on-PC:
 ### 1.1 Download the proper `Ubuntu 20.04 LTS Desktop` image for your PC from the links below.
@@ -44,3 +45,10 @@ Install TurtleBot3 via Debian Packages.<br/>
 `$ sudo apt install ros-noetic-dynamixel-sdk`<br/>
 `$ sudo apt install ros-noetic-turtlebot3-msgs`<br/>
 `$ sudo apt install ros-noetic-turtlebot3`<br/>
+
+
+## 5-Gazebo-Simulation:-
+### 5.1 Install Simulation Package:
+The TurtleBot3 Simulation Package requires `turtlebot3` and `turtlebot3_msgs` packages as prerequisite. Without these prerequisite packages, the Simulation cannot be launched.
+Please follow the [PC Setup](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/) instructions if you did not install required packages and dependent packages
+## 6-SLAM-Simulation:
