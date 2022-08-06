@@ -54,9 +54,9 @@ Install TurtleBot3 via Debian Packages.<br/>
 The <b>TurtleBot3 Simulation Package</b> requires `turtlebot3` and `turtlebot3_msgs` packages as prerequisite. Without these prerequisite packages, the Simulation cannot be launched.<br/>
 Please follow the [PC Setup](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/) instructions if you did not install required packages and dependent packages<br/>
 
-`$ cd ~/catkin_ws/src/`
-`$ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git`
-`$ cd ~/catkin_ws && catkin_make`
+`$ cd ~/catkin_ws/src/` <br/>
+`$ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git`<br/>
+`$ cd ~/catkin_ws && catkin_make`<br/>
 
 ### 5.2 Launch Simulation World:
 Three simulation environments are prepared for TurtleBot3. Please select one of these environments to launch Gazebo.
@@ -78,3 +78,18 @@ Please use the proper keyword among `burger` , `waffle` , `waffle_pi` for the TU
 
 `$ export TURTLEBOT3_MODEL=burger`<br/>
 `$ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping`<br/>
+<br/>
+
+![002](https://user-images.githubusercontent.com/101488769/183254106-e2e0ef6f-f6f8-42e7-beb1-20b2c2385492.png)
+<br/>
+
+### 6.2 Run Teleoperation Node
+Open a new terminal from Remote PC with `Ctrl` + `Alt` + `T` and run the teleoperation node from the Remote PC.<br/><br/>
+Please use the proper keyword among `burger` , `waffle` , `waffle_pi` for the TURTLEBOT3_MODEL parameter.<br/>
+
+`$ export TURTLEBOT3_MODEL=burger`<br/>
+`$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch`<br/>
+<br/>
+
+![03](https://user-images.githubusercontent.com/101488769/183254268-c071018e-238d-4295-a0da-a13191d9e55c.png)
+<br/>
