@@ -29,10 +29,18 @@ In order to check the details of the easy installation script.<br/>
 `$ bash ./install_ros_noetic.sh`<br/>
 
 ## 3-Install-Dependent-ROS-Packages:
+`$ sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \`<br/>
+  `ros-noetic-teleop-twist-keyboard ros-noetic-laser-proc \`<br/>
+  `ros-noetic-rgbd-launch ros-noetic-rosserial-arduino \`<br/>
+  `ros-noetic-rosserial-python ros-noetic-rosserial-client \`<br/>
+  `ros-noetic-rosserial-msgs ros-noetic-amcl ros-noetic-map-server \`<br/>
+  `ros-noetic-move-base ros-noetic-urdf ros-noetic-xacro \`<br/>
+  `ros-noetic-compressed-image-transport ros-noetic-rqt* ros-noetic-rviz \`<br/>
+  `ros-noetic-gmapping ros-noetic-navigation ros-noetic-interactive-marker`<br/>
+  
+
+## 4-Install-TurtleBot3-Packages:
 Install TurtleBot3 via Debian Packages.<br/>
 `$ sudo apt install ros-noetic-dynamixel-sdk`<br/>
 `$ sudo apt install ros-noetic-turtlebot3-msgs`<br/>
 `$ sudo apt install ros-noetic-turtlebot3`<br/>
-
-## 4-Install-TurtleBot3-Packages:
-
